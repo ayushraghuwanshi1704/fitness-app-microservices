@@ -1,0 +1,15 @@
+﻿# Maven output
+**/target/
+
+# Frontend dependencies and build output
+/fitness-app-frontend/node_modules/
+/fitness-app-frontend/dist/
+/fitness-app-frontend/.npm-cache/
+
+# Local credentials and environment overrides
+.env
+.env.*
+!.env.example
+
+# Local run logs
+*.log
